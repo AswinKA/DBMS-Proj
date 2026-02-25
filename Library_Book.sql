@@ -108,7 +108,7 @@ JOIN Book b ON i.book_id = b.book_id;
 SELECT * FROM Library_View;
 //comit and rollback
 START TRANSACTION;
-INSERT INTO Student VALUES (6,'Nabin','IT','980000006');
+INSERT INTO Student VALUES (6,'Nabin','IT','9806');
 ROLLBACK;   -Cancels insert
 OR
 COMMIT;     -Saves insert
